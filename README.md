@@ -12,7 +12,6 @@ Paper title: **LaSTR: Language-Driven Time-Series Segment Retrieval**
 - No variant suffix was used (no `-pro`, no `-thinking`).
 
 ## 2. Data snapshot used for paper results
-Observed counts:
 - Train: 560,223 segment-caption pairs
 - Val: 17,591 segment-caption pairs
 - Test: 36,852 segment-caption pairs
