@@ -38,17 +38,6 @@ Do NOT include:
 Return ONLY a JSON array with exactly {n_segments} strings, in order from 1 to {n_segments}.
 ```
 
-### Caption generation API settings
-- `temperature = 1.0` 
-- request `timeout = 120.0` seconds
-- retries: up to 3 attempts
-- response is accepted only when:
-  - valid JSON
-  - JSON type is list
-  - list length equals expected `n_segments`
-
-If parsing/validation fails after retries, the sample is treated as caption-generation failure.
-
 ## 4. VLM-as-a-judge prompts (exact)
 
 ### 4.1 Binary judge prompt
