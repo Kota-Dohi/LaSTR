@@ -61,12 +61,6 @@ Give an integer score from 1 to 5:
 Respond in JSON: {"score": 1-5, "reason": "..."}.
 ```
 
-### Judge API settings
-
-- `temperature = 0.0`
-- token cap = `200`
-- parser expects JSON response
-
 ## 6. Notes on CLIP baseline
 
 CLIP model ID:
